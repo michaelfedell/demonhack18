@@ -10,6 +10,10 @@ def hello():
 def rachel():
     return "this is a test"
 
+@app.route('/Tan')
+def rachel():
+    return "it workzzzzzz"
+
 @app.route('/<name>')
 def hello_name(name):
     return "Hello {}!".format(name)
