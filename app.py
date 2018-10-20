@@ -11,7 +11,7 @@ def rachel():
     return "this is a test"
 
 @app.route('/Tan')
-def rachel():
+def tan():
     return "it workzzzzzz"
 
 @app.route('/<name>')
